@@ -13,6 +13,26 @@ body {
     margin-right: auto;   
 }
 
+#title {
+    
+    width: 60%;
+    height: 50%;
+    text-align: center;
+    line-height: 75px;
+    font-size: 5em;
+    
+    
+}
+
+#titleimg {
+    
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    
+}
 
 
 /* Class Selection */
@@ -21,9 +41,13 @@ body {
     border: yellow solid 3px;
     width: 100%;
     height: 300px;
+    color: white;
 }
 
 .header {
     width: 100%;
     height: 30em;
+    display: flex;
+    flex-direction: row;
+    position: relative;
 }
