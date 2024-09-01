@@ -5,7 +5,25 @@ body {
 
 /* ID selection */
 
+#container {
+    border: white solid 3px;
+    width: 75%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;   
+}
 
 
 
 /* Class Selection */
+
+.selections {
+    border: yellow solid 3px;
+    width: 100%;
+    height: 300px;
+}
+
+.header {
+    width: 100%;
+    height: 30em;
+}
