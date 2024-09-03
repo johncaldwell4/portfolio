@@ -1,12 +1,19 @@
 /* HTML Tag Selection */
 body {
+    padding: 0px;
+    margin: 0px;
     background-color: black;
+}
+
+h2 {
+    font-size: 2em;
+    font-style: italic;
 }
 
 /* ID selection */
 
 #container {
-    border: white solid 3px;
+    /* border: white solid 3px; */
     width: 75%;
     height: 100%;
     margin-left: auto;
@@ -19,26 +26,37 @@ body {
     height: 50%;
     text-align: center;
     line-height: 75px;
-    font-size: 5em;
-    
-    
+ }
+
+#title > h1 {
+    font-size: 4em;
+    width: 1000px;
+}
+
+#title > h2 {
+    width: 1000px;
+    height: 45px;
+    padding: 0px;
+    margin: 0px;
 }
 
 #titleimg {
-    
+    padding-top: 50px;
     width: 40%;
     height: 100%;
     text-align: center;
     line-height: 75px;
-    font-size: 30px;
-    
+}
+
+#titleimg > img {
+    border-radius: 30%;
 }
 
 
 /* Class Selection */
 
 .selections {
-    border: yellow solid 3px;
+    /* border: yellow solid 3px; */
     width: 100%;
     height: 300px;
     color: white;
@@ -50,4 +68,16 @@ body {
     display: flex;
     flex-direction: row;
     position: relative;
+}
+
+.summary > h2 {
+    text-align: center;
+}
+
+.summary > p {
+    margin-left: 100px;
+    width: 1250px;
+    height: 100px;
+    align-items: center;
+
 }
