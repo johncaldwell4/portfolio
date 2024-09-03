@@ -56,7 +56,7 @@ h2 {
 /* Class Selection */
 
 .selections {
-    /* border: yellow solid 3px; */
+    border: yellow solid 3px;
     width: 100%;
     height: 300px;
     color: white;
