@@ -60,20 +60,24 @@ h2 {
 }
 
 #basicskills {
+    width: 90%;
     height: 60px;
     border: #481E14 solid 2px;
     box-shadow: 10px 5px 5px 12px #481E14;
     font-size: 25px;
     padding-top: 30px;
+    margin-left: 45px;
 }
 
 #advanceskills {
     color: white;
+    width: 90%;
     height: 60px;
     border: #481E14 solid 2px;
     box-shadow: 10px 5px 5px 12px #481E14;
     font-size: 25px;
     padding-top: 30px;
+    margin-left: 45px;
 }
 
 
