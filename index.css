@@ -6,10 +6,12 @@ body {
 }
 
 h1 {
+    color: #481E14;
     font-size: 4em;
 }
 
 h2 {
+    
     font-size: 2em;
     font-style: italic;
 }
@@ -38,6 +40,7 @@ h2 {
 }
 
 #title > h2 {
+    
     width: 1000px;
     height: 45px;
     padding: 0px;
@@ -56,11 +59,28 @@ h2 {
     border-radius: 30%;
 }
 
+#basicskills {
+    height: 60px;
+    border: #481E14 solid 2px;
+    box-shadow: 10px 5px 5px 12px #481E14;
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+#advanceskills {
+    color: white;
+    height: 60px;
+    border: #481E14 solid 2px;
+    box-shadow: 10px 5px 5px 12px #481E14;
+    font-size: 25px;
+    padding-top: 30px;
+}
+
 
 /* Class Selection */
 
 .selections {
-    border: yellow solid 3px;
+    /* border: yellow solid 3px; */
     width: 100%;
     height: 300px;
     color: white;
@@ -75,6 +95,7 @@ h2 {
 }
 
 .summary > h2 {
+    color: #481E14;
     text-align: center;
 }
 
@@ -82,6 +103,4 @@ h2 {
     margin-left: 100px;
     width: 1250px;
     height: 100px;
-    
-
 }
