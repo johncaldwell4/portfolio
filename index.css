@@ -23,6 +23,10 @@ ul {
     list-style-type: none;
 }
 
+abbr {
+    text-decoration: none;
+}
+
 /* ID selection */
 #container {
     display: flex;
@@ -61,8 +65,8 @@ ul {
     flex-basis: 100%;
     padding-top: 5px;
     padding-right: 15%;
-    padding-bottom: 25px;
-    padding-left: 12%;
+    padding-bottom: 50px;
+    padding-left: 40%;
 }
 
 #skills > details {
@@ -75,16 +79,28 @@ details summary::marker {
     color: azure; /* Change arrow color to blue */
     font-size: 1em; /* Increase arrow size */
   }
-
-
-
-
 #work-history {
     flex-basis: 100%;
+    padding-top: 5px;
+    padding-right: 15%;
+    padding-bottom: 25px;
+    padding-left: 12%;
 }
 
-#education{
+#work-history > h2 {
+    color:#F2613F;
+}
+
+#education {
     flex-basis: 100%;
+    padding-top: 5px;
+    padding-right: 15%;
+    padding-bottom: 25px;
+    padding-left: 12%;
+}
+
+#education > h2 {
+    color:#F2613F;
 }
 
 /* Class Selection */
