@@ -127,6 +127,16 @@ details summary::marker {
     h2 {
         font-size: 1em;
     }
+    #header-content {
+        flex-basis: 100%;
+        text-align: center;
+    
+    }
+
+    #header-pic {
+        padding-left: 200px;
+        flex-basis: 100%;
+      }
 
     #summary-text > h2 {
         color:#F2613F;
@@ -146,9 +156,128 @@ details summary::marker {
         padding-bottom: 50px;
         padding-left: 35%;
     }
+
+    #skills {
+        flex-basis: 100%;
+        padding-top: 5px;
+        padding-right: 15%;
+        padding-bottom: 50px;
+        padding-left: 5%;
+    }
+    
+    #skills > details > summary {
+        color:#F2613F;
+        font-size: 1.25em;
+    }
+
+    #work-history {
+        
+        padding-top: 5px;
+        padding-right: 5px;
+        padding-bottom: 25px;
+        padding-left: 15px;
+    }
+
+    #education {
+        padding-top: 5px;
+        padding-right: 5%;
+        padding-bottom: 15px;
+        padding-left: 5px;
+    }
+    
+    #education > h2 {
+        color:#F2613F;
+        text-align: center;
+        font-size: 2em;
+    }
    
 }
 
-@media (max-width:700px) {
+@media (max-width:699px) {
+    h1 {
+        color:hsl(11, 87%, 60%);
+        font-size: 2em;
+    }
 
+    h2 {
+        font-size: .75em;
+    }
+
+    h3 {
+        font-size: .50;
+    }
+
+    #header-content {
+        flex-basis: 100%;
+        text-align: center;
+    
+    }
+
+     #summary-text {
+        flex-basis: 100%;
+        
+    }
+
+    #header-pic {
+        padding-left: 200px;
+        flex-basis: 100%;
+      }
+    
+      #summary-text > h2 {
+        color:#F2613F;
+        font-size: 2em;
+        text-align: center;
+    }
+    
+    #summary-text > p {
+        padding-top: 5px;
+        padding-right: 0%;
+        padding-bottom: 25px;
+        padding-left: 5%;
+    }
+
+    #skills {
+        flex-basis: 100%;
+        padding-top: 5px;
+        padding-right: 15%;
+        padding-bottom: 50px;
+        padding-left: 5%;
+    }
+    
+    #skills > details > summary {
+        color:#F2613F;
+        font-size: 1.25em;
+    }
+    
+    details summary::marker {
+    
+        color: azure; /* Change arrow color to blue */
+        font-size: 1em; /* Increase arrow size */
+    }
+
+    #work-history > details > summary {
+        color: #9B3922;
+        font-size: 1.25em;
+    }
+
+    #work-history {
+        
+        padding-top: 5px;
+        padding-right: 5px;
+        padding-bottom: 25px;
+        padding-left: 15px;
+    }
+
+    #education {
+        padding-top: 5px;
+        padding-right: 5%;
+        padding-bottom: 15px;
+        padding-left: 5px;
+    }
+    
+    #education > h2 {
+        color:#F2613F;
+        text-align: center;
+        font-size: 2em;
+    }
 }
