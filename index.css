@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: #0C0C0C;
     color: azure;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -13,6 +13,7 @@ h1 {
     color:#F2613F;
     font-size: 4em;
 }
+
 
 img {
     
@@ -24,6 +25,11 @@ ul {
 }
 
 abbr {
+    text-decoration: none;
+}
+
+a {
+    color:#F2613F;
     text-decoration: none;
 }
 
@@ -113,9 +119,31 @@ details summary::marker {
     font-size: 2em;
 }
 
+#projects > h2 {
+    color:#F2613F;
+    text-align: center;
+    font-size: 2em;
+}
+
+#projects > details > summary {
+    color: #9B3922;
+    font-size: 1.5em;
+}
+
+#projects {
+    
+        flex-basis: 100%;
+        padding-top: 5px;
+        padding-right: 15%;
+        padding-bottom: 25px;
+        padding-left: 12%;
+}
+
 /* Class Selection */
 
-
+.education_title {
+    color:#F2613F;
+}
 
 
 
@@ -172,7 +200,7 @@ details summary::marker {
         font-size: 1.25em;
     }
 
-    #work-history {
+    #projects, #work-history {
         
         padding-top: 5px;
         padding-right: 5px;
@@ -262,7 +290,7 @@ details summary::marker {
         font-size: 1.25em;
     }
 
-    #work-history {
+    #projects, #work-history {
         
         padding-top: 5px;
         padding-right: 5px;
